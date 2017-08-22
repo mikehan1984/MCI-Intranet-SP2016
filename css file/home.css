@@ -1,0 +1,42 @@
+﻿.ms-core-navigation { DISPLAY: none }
+#contentBox { margin-left: 0px }
+
+.HomeCanvas{
+	width:970px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	min-height:700px;
+	height:auto;
+}
+.Welcome{
+	margin-bottom:10px;
+	font-size:25px;
+	height:40px;
+}
+.common-content-container{
+	box-shadow: 0 0 8px rgba(0,0,0,.36);
+    background-color: #fff;
+    height: 570px;
+}
+.HomeFirstColumn,
+.HomeSecondColumn,
+.HomeThirdColumn{
+	padding-right:0px!important;
+	display:table-cell;
+	position:relative;
+	height:auto;
+	min-height:50px;
+}
+.btn-transparent {
+    background-color: transparent;
+    color: #d31e39;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+}
+.btn-primary, .btn-transparent {
+    font-family: Arimo,sans-serif!important;
+}
